@@ -1,0 +1,716 @@
+body{
+    margin:0;
+  
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+     
+}
+.container{
+    text-shadow: 1px 1px rgb(250, 232, 232);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    text-align: center;
+    background-color:tan;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    box-shadow: 2px 2px 10px 2px rgb(66, 63, 63);
+    position:sticky;
+    font-size: 15px;
+  
+}
+#logo{
+    padding: 25px 35px;
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius:50px;
+    background-image: url('cateringlogo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    .logo-name{
+    font-family:'noto serif ethiopic condensed';
+    font-style: italic;
+    font-size: 20px;
+    margin: 1px 0px 0px 5px;
+    text-shadow: 1px 1px 3px white;
+}
+.btn-link {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    text-decoration:underline;
+    color:rgb(27, 27, 27);
+    margin: 20px;
+    transition: 0.5s;
+    
+}
+.btn-link:hover{
+    color:whitesmoke;
+    padding: 15px 15px;
+
+}
+.index-image{
+   
+    position:absolute;
+    display: inline-block;
+    border-radius: 10px 10px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    opacity: 0.9;  
+}
+
+.index-style{
+    position:relative;
+    top: 50px;
+    left: 300px;
+    right: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 40px;
+    padding-bottom: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 40px; 
+    background-image: url('sidebarbg2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:repeat-y;
+    overflow: hidden;
+    border: 1px solid rgba(209, 182, 136, 0.678);
+    opacity: 0.8;
+}
+.index-text{
+    font-family:'noto serif ethiopic condensed';
+    border: 0px;
+    margin-top: 20px;
+    font-size: 23px;
+    text-align: center;
+    font-style: italic;
+    color: black;
+}
+.text-about, .text-about1{
+    font-weight: bold;
+    background-color:rgb(198, 228, 230);
+    padding:70px ;
+    font-size: 20px;   
+    margin-top: 0px; 
+    font-style: italic;
+}
+.text-about1{
+    background-image: url('hero3.png');
+    display:block;
+    background-size:cover;
+    background-position: center;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+.text-about2{
+    font-weight: bold;
+    background-color: rgb(255, 222, 91);
+    padding: 70px;
+    font-size: 20px ;
+    font-style: italic;
+}
+
+
+/*menu page*/
+
+.side-bar{
+    position: relative;
+    top:300px;
+    background-image: url('sidebarbg3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-family:'noto serif ethiopic condensed' ;
+    padding: 50px 40px;
+    margin:10px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+
+.welcome{
+    border-radius:50px;
+    opacity: 0.8;
+    display:inline-block;
+    position: absolute;
+    left: 750px;
+    padding:0px 10px;
+    color:black;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 1px 1px 3px  rgb(216, 147, 43);
+}
+
+ .pork{
+    font-size: 15px;
+    color:rgb(88, 83, 83);
+    font-style: italic;
+    text-shadow: 1px 1px rgb(20, 19, 19);
+    padding:20px 60px;
+    display: inline-block;
+    position:absolute;
+    left: 900px;
+    top: 440px;
+    margin-left: 40px;
+    border-radius: 30px;
+    background-color:lavender;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 1px 1px 10px 2px rgb(10, 10, 9);
+}
+.beef{
+    font-size: 15px;
+    color:rgb(88, 83, 83);
+    font-style: italic;
+    text-shadow: 1px 1px rgb(20, 19, 19);
+    display: inline-block;
+    position:absolute;
+    left: 900px;
+    top: 630px;
+    margin-left: 40px;
+    padding: 20px 50px;
+    border-radius: 30px;
+    background-color:lavender;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 1px 1px 10px 2px rgb(10, 10, 9);
+}
+.chicken{
+    font-size: 15px;
+    color:rgb(88, 83, 83);
+    font-style: italic;
+    text-shadow: 1px 1px rgb(20, 19, 19);
+    padding:5px 5px;
+    display: inline-block;
+    position:absolute;
+    left: 900px;
+    top: 870px;
+    margin-left: 40px;
+    padding: 30px 30px;
+    border-radius: 30px;
+    background-color:lavender;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 1px 1px 10px 2px rgb(10, 10, 9);
+}
+.seafood{
+    font-size: 15px;
+    color:rgb(88, 83, 83);
+    font-style: italic;
+    text-shadow: 1px 1px rgb(20, 19, 19);
+    padding:5px 5px;
+    display: inline-block;
+    position:absolute;
+    left: 900px;
+    top: 1140px;
+    margin-left: 40px;
+    padding: 30px 30px;
+    border-radius: 30px;
+    background-color:lavender;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 1px 1px 10px 2px rgb(10, 10, 9);
+}
+.pasta{
+    font-size: 15px;
+    color:rgb(88, 83, 83);
+    font-style: italic;
+    text-shadow: 1px 1px rgb(20, 19, 19);
+    display: inline-block;
+    position:absolute;
+    left: 1390px;
+    top: 330px;
+    padding: 30px 45px;
+    border-radius: 30px;
+    background-color:lavender;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 1px 1px 10px 2px rgb(10, 10, 9);
+}
+.vegetables{
+    font-size: 15px;
+    color:rgb(88, 83, 83);
+    font-style: italic;
+    text-shadow: 1px 1px rgb(20, 19, 19);
+    padding:5px 5px;
+    display: inline-block;
+    position:absolute;
+    left: 1350px;
+    top: 880px;
+    margin-left: 40px;
+    padding: 30px 30px;
+    border-radius: 30px;
+    background-color:lavender;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 1px 1px 10px 2px rgb(10, 10, 9);
+}
+.dessert{
+    font-size: 18px;
+    color:rgb(88, 83, 83);
+    font-style: italic;
+    text-shadow: 1px 1px rgb(20, 19, 19);
+    padding:5px 5px;
+    display: inline-block;
+    position:absolute;
+    left: 1350px;
+    top: 605px;
+    margin-left: 40px;
+    padding: 30px 80px;
+    border-radius: 30px;
+    background-color:lavender;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 1px 1px 10px 2px rgb(10, 10, 9);
+}
+.beverages{
+    font-size: 18px;
+    color:rgb(88, 83, 83);
+    font-style: italic;
+    text-shadow: 1px 1px rgb(20, 19, 19);
+    padding:5px 5px;
+    display: inline-block;
+    position:absolute;
+    left: 1350px;
+    top: 1200px;
+    margin-left: 40px;
+    padding: 30px 40px;
+    border-radius: 30px;
+    background-color:lavender;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 1px 1px 10px 2px rgb(10, 10, 9);
+}
+
+.photo1{
+    background-image: url('food1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 150px 150px;
+    position:absolute;
+    top: 400px;
+    left: 450px;
+    border-radius: 200px;
+    box-shadow: 2px 2px 10px 2px rgb(224, 51, 8);
+}
+.photo2{
+    background-image: url('food2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 150px 150px;
+    position:absolute;
+    top: 600px;
+    left: 600px;
+    border-radius: 200px;
+    box-shadow: 2px 2px 10px 2px rgb(255, 255, 255);
+}
+.photo3{
+    background-image: url('food3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 150px 150px;
+    position:absolute;
+    top: 800px;
+    left: 450px;
+    border-radius: 200px;
+    box-shadow: 2px 2px 10px 2px rgb(255, 158, 66);
+}
+.photo4{
+    background-image: url('food4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 150px 150px;
+    position:absolute;
+    top: 1000px;
+    left: 600px;
+    border-radius: 200px;
+    box-shadow: 2px 2px 10px 2px rgb(255, 255, 255);
+}
+.photo5{
+    background-image: url('food5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 150px 150px;
+    position:absolute;
+    top: 1200px;
+    left: 450px;
+    border-radius: 200px;
+    box-shadow: 2px 2px 10px 2px rgb(255, 255, 255);
+}
+.pinoy-kusin{
+    position:absolute;
+    top: 1600px;
+    left: 750px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px   rgb(216, 147, 43);
+    
+}
+.pork-p{
+    padding:10px 50px;
+    position: absolute;
+    top: 1800px;
+    left: 120px;
+    background-color: lavender;
+    box-shadow: 1px 1px 10px 2px rgb(255, 255, 255);
+    border-radius: 20px;
+    font-style: italic;
+    text-shadow: 1px 1px rgb(20, 19, 19);
+    color:rgb(88, 83, 83);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.beef-p{
+    padding:50px 20px;
+    position: absolute;
+    top: 1800px;
+    left: 440px;
+    background-color: lavender;
+    box-shadow: 1px 1px 10px 2px rgb(255, 255, 251);
+    border-radius: 20px;
+    font-style: italic;
+    text-shadow: 1px 1px rgb(20, 19, 19);
+    color:rgb(88, 83, 83);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.chicken-p{
+    padding:40px 55px;
+    position: absolute;
+    top: 1800px;
+    left: 780px;
+    background-color: lavender;
+    box-shadow: 1px 1px 10px 2px rgb(255, 255, 255);
+    border-radius: 20px;
+    font-style: italic;
+    text-shadow: 1px 1px rgb(20, 19, 19);
+    color:rgb(88, 83, 83);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.noodle-p{
+    padding:50px 10px;
+    position: absolute;
+    top: 1800px;
+    left: 1100px;
+    background-color: lavender;
+    box-shadow: 1px 1px 10px 2px rgb(255, 255, 255);
+    border-radius: 20px;
+    font-style: italic;
+    text-shadow: 1px 1px rgb(20, 19, 19);
+    color:rgb(88, 83, 83);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.vegetable-p{
+    padding:50px 45px;
+    position: absolute;
+    top: 1800px;
+    left: 1450px;
+    background-color: lavender;
+    box-shadow: 1px 1px 10px 2px rgb(248, 248, 247);
+    border-radius: 20px;
+    font-style: italic;
+    text-shadow: 1px 1px rgb(20, 19, 19);
+    color:rgb(88, 83, 83);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.addition{
+    position: absolute;
+    font-family:Sofia, serif;
+    left: 850px;
+    top: 2250px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px rgb(216, 147, 43);
+    
+}
+
+.left-add{
+    font-style: italic;
+    padding:75px 20px;
+    position: absolute;
+    top: 2400px;
+    margin-left: 200px;
+    border: 1px solid rgb(255, 244, 244);   
+    border-radius: 20px;
+    font-size: 20px;
+    text-shadow: 1px 1px rgb(255, 253, 253);
+    color:rgb(88, 83, 83);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 1px 1px 10px 2px rgb(255, 255, 254);
+}
+.right-add{
+    font-style: italic;
+    padding: 70px 35px ;
+    position: absolute;
+    top: 2400px;
+    left: 1000px;
+    display: inline-block;
+    margin-right: 200px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 20px;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    color:rgb(88, 83, 83);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 1px 1px 10px 2px rgb(255, 255, 255);
+}
+.aomenu{
+    padding:200px 200px;
+    border-radius: 200px;
+    position:absolute;
+    top:2200px;
+    left:1450px;
+    background-image: url('aomenu1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px 2px rgb(255, 198, 74);
+
+}
+.aomenu2{
+    padding:150px 150px;
+    border-radius: 200px;
+    position:absolute;
+    top: 3400px;
+    left:650px;
+    background-image: url('aomenu2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px 2px rgb(255, 198, 74);
+
+}
+
+
+
+/*index page----*/
+.catalog1, .catalog2, .catalog3{
+    padding:150px 150px;
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px 10px ;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right:20px;
+    box-shadow: 2px 2px 10px 2px black; 
+    
+}
+.catalog1{
+    background-image: url('jlbg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+    border-radius: 30px;   
+}
+.catalog2{
+    background-image: url('jlbg3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+    border-radius: 30px;   
+}
+.catalog3{
+    background-image: url('jlbg4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+    border-radius: 30px;   
+}
+
+/*reservation page----*/
+.submit button {
+    background-color: #24c42c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 2px 2px 10px 2px rgb(207, 168, 40);
+    margin-bottom:20px ;
+    margin-top:20px
+}
+.submit button:hover{
+    padding:15px 25px;
+    color: black;
+}
+.menu-page, .menu-container{
+    position: relative;
+    top: 10px;
+}
+/* --------------------------------------------------------------------------
+    RESERVATION*/
+
+.customer-info{
+    text-shadow: 1px 1px black;
+    color: white;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+#terms-checkbox{
+    position: relative;
+    left:700px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.submit{
+    position: relative;
+    left: 800px;
+    margin-top: 10px;
+}
+
+input{
+    font-size: 15px;
+    padding:5px 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 10px;
+    font-family: 'noto serif ethiopic condensed';
+}
+select{
+    color: rgb(0, 0, 0);
+    padding: 5px 5px;
+    transition: 0.5s;
+    font-family:'noto serif ethiopic condensed' ;
+    font-size: 15px;
+}
+select:hover{
+    color:rgb(179, 46, 46);
+}
+#termscon{
+    text-shadow: 1px 1px black;
+    color: white;
+    display:inline-block;
+    position: relative;
+    top: -100px;
+    padding: 0px 0px;
+    margin-left:32px ;
+    font-size: 18px;
+}
+.paymentD{
+    text-shadow: 1px 1px black;
+    color: white;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    font-size: 18px;
+}
+.catering1{
+    padding:200px 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 2px rgb(255, 255, 255);
+    background-image: url('catering1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+}
+.catering2{
+    margin-top: 0;
+    padding:200px 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 2px rgb(255, 255, 255);
+    background-image: url('catering2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+}
+.pinoy-kusin2{
+    text-shadow: 1px 1px black;
+    color: white;
+    font-family: 'noto serif ethiopic condensed';
+    font-size: 20px;
+    display: inline-block;
+    padding:30px 20px;
+    margin-left: 50px ;
+    margin-top: 60px ;
+}
+.pcimage{
+    background-image: url('pcimage1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+    padding: 225px 190px;
+    display: inline-block;
+    position: relative;
+    left: -360px;
+    top: -420px;
+    opacity: 1;
+}
+.pcimage2{
+    background-image: url('pcimage2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+    padding: 230px 190px;
+    display: inline-block;
+    position: relative;
+    top: 45px;
+    left: 25px;
+}
+.adds{
+    text-shadow: 1px 1px black;
+    color: white;
+    display: inline-block;
+    padding: 10px 10px ;
+    position: relative;
+    left:-330px;
+    top: 25px;
+    font-size: 16px;
+}
+.add2{
+    text-shadow: 1px 1px black;
+    color: white;
+    display: inline-block;
+    padding: 65px 10px ;
+    position:relative;
+    left: -300px;
+    top: -20px;
+    font-size: 16px;
+}
+.menu-background{
+    background-image: url('julliannes.jpg');
+    width:1900px;
+    opacity: 0.9;
+}
+.reservebg{
+    background-image: url('julliannes.jpg');
+    width:1900px;
+    opacity: 0.9;
+}
+

@@ -1,0 +1,363 @@
+@media screen and (min-width: 1080px) {
+    .container {
+        text-shadow: 0.5px 0.5px rgb(250, 232, 232);
+        font-size: 12px;
+        padding: 15px;
+        box-shadow: none;
+        text-align: center;
+        position: relative;
+    }
+
+    #logo {
+
+        padding: 15px 20px;
+        display:inline block;
+        margin: 0 auto;
+        border-radius: 30px;
+        background-size: cover;
+    }
+
+    .logo-name {
+        font-size: 16px;
+        margin: 5px auto;
+        text-shadow: 1px 1px 2px white;
+        text-align: center;
+    }
+
+    .btn-link {
+        font-size: 16px;
+        margin: 10px 0;
+        padding: 10px;
+        color: rgb(50, 50, 50);
+    }
+
+    .btn-link:hover {
+        padding: 12px;
+        color: whitesmoke;
+    }
+
+  
+
+    .index-style {
+        position: relative;
+        top: 20px;
+        left: auto;
+        right: auto;
+        padding: 20px;
+        margin: 0 auto;
+        border-radius: 20px;
+        background-size: cover;
+        background-position: center;
+        opacity: 0.9;
+    }
+
+    .index-text {
+        font-size: 18px;
+        margin-top: 10px;
+        text-align: center;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    }
+   .catalog1, .catalog2, .catalog3 {
+            background-size: contain; /* Adjust size to fit smaller screens */
+            background-position: center; /* Keep the focal point centered */
+            background-repeat: no-repeat; /* Maintain no-repeat for design integrity */
+            border-radius: 15px; /* Soften the border radius */
+            overflow: hidden;
+            width: 90%; /* Fit within the viewport */
+            padding: 30px; /* Reduce padding for smaller screens */
+            margin: 20px auto; /* Center the elements vertically and horizontally */
+            box-shadow: 1px 1px 5px 1px black; /* Subtle shadow for compact design */
+        }
+        .catalog1, .catalog2, .catalog3{
+                padding:100px 10px ;
+                background-size:cover;
+                background-position: bottom;
+                background-repeat: no-repeat;
+                overflow: hidden; 
+                display: inline-block;
+                border-radius: 30px;   
+        }
+        .about-us{
+            margin-top:auto;
+        }
+        .text-about, .text-about1{
+            font-weight: bold;
+            background-color:rgb(198, 228, 230);
+            font-size: 15px;   
+            margin-top: auto;
+        }
+        .text-about1{
+            background-image: url('hero3.png');
+            display:block;
+            background-size:cover;
+            background-position: center;
+            overflow: hidden;
+            text-align: center;
+            font-weight: bold;
+            font-style: italic;
+        }
+        .text-about2{
+            font-weight: bold;
+            background-color: rgb(255, 222, 91);
+            font-size: 15px ;
+            font-style: italic;
+        }
+        .side-bar{
+            font-size: 10px;
+            margin-left: 50px;
+            top: 200px;
+        }
+        .welcome{
+            left: 0px;
+        }
+        .photo1, .photo2, .photo3, .photo4, .photo5{
+            padding:25%;
+            
+        }
+        .photo1{
+            top:1100px;
+            left: auto;
+            margin: auto;
+        }
+        .photo2{
+            top: 1200px;
+            left: 100px;
+        }
+        .photo3{
+            top: 1300px;
+            left: 200px;
+        }
+        .photo4{
+            top: 1400px;
+            left: 100px;
+        }
+        .photo5{
+            top: 1500px;
+            left: auto;
+        }
+        .pork{
+            margin: auto;
+            font-size: 12px;
+            padding: 50x 100px;
+            left: 15px;
+            top: 1750px;
+            box-shadow: 1px 1px 5px 1px rgb(106, 250, 214),
+            -2px -2px 5px -2px rgb(216, 93, 206);
+        }
+        .beef{
+            margin: auto;
+            font-size: 12px;
+            padding: 50x 100px;
+            left: 15px;
+            top: 1900px;
+            box-shadow: 1px 1px 5px 1px rgb(106, 250, 214),
+            -2px -2px 5px -2px rgb(216, 93, 206);
+        }
+        .chicken{
+            margin: auto;
+            font-size: 12px;
+            padding: 50x 100px;
+            left: 15px;
+            top: 2090px;
+            box-shadow: 1px 1px 5px 1px rgb(106, 250, 214),
+            -2px -2px 5px -2px rgb(216, 93, 206);
+        }
+        .seafood{
+            margin: auto;
+            font-size: 12px;
+            padding: 50x 100px;
+            left: 13px;
+            top: 2305px;
+            box-shadow: 1px 1px 5px 1px rgb(106, 250, 214),
+            -2px -2px 5px -2px rgb(216, 93, 206);
+        }
+        .pasta{
+            margin: auto;
+            font-size: 12px;
+            padding: auto;
+            left: 15px;
+            top: 2560px;
+            box-shadow: 1px 1px 5px 1px rgb(106, 250, 214),
+            -2px -2px 5px -2px rgb(216, 93, 206);
+        }
+        .vegetables{
+           margin: auto;
+            font-size: 12px;
+            padding: 50x 100px;
+            left: 15px;
+            top: 2790px;
+            box-shadow: 1px 1px 5px 1px rgb(106, 250, 214),
+            -2px -2px 5px -2px rgb(216, 93, 206);
+        }
+        .dessert{
+                margin: auto;
+                font-size: 12px;
+                left: 15px;
+                top: 3045px;
+                box-shadow: 1px 1px 5px 1px rgb(106, 250, 214),
+                -2px -2px 5px -2px rgb(216, 93, 206);
+        }
+        .beverages{
+            margin: auto;
+            font-size: 12px;
+            padding: 50x 100px;
+            left: 15px;
+            top: 3245px;
+            box-shadow: 1px 1px 5px 1px rgb(106, 250, 214),
+            -2px -2px 5px -2px rgb(216, 93, 206);
+        }
+        .pinoy-kusin{
+            left:75px;
+            top: 3450px;
+            font-size: 30px;
+            font-style: italic;
+        } 
+        .pork-p{
+            left: 110px;
+            top: 3580px;
+            box-shadow: 1px 1px 5px 1px rgb(106, 250, 214),
+            -2px -2px 5px -2px rgb(216, 93, 206);
+        }
+        .beef-p{
+            left: 20px;
+            top: 3810px;
+            box-shadow: 1px 1px 5px 1px rgb(106, 250, 214),
+            -2px -2px 5px -2px rgb(216, 93, 206);
+        }
+        .chicken-p{
+            left: 110px;
+            top: 4045px;
+            box-shadow: 1px 1px 5px 1px rgb(106, 250, 214),
+            -2px -2px 5px -2px rgb(216, 93, 206);
+        }
+        .noodle-p{
+            left: 20px;
+            top: 4280px;
+            box-shadow: 1px 1px 5px 1px rgb(106, 250, 214),
+            -2px -2px 5px -2px rgb(216, 93, 206);
+        }
+        .vegetable-p{
+            left: 110px;
+            top: 4520px;
+            box-shadow: 1px 1px 5px 1px rgb(106, 250, 214),
+            -2px -2px 5px -2px rgb(216, 93, 206);
+        }
+        .addition{
+            left: auto;
+            top: 4800px;
+            background-color: cadetblue;
+            padding: 0px 155px 0px 155px ;
+            font-size: 20px;
+            font-style: italic;   
+            border-radius: 0px 100px 100px 0px ; 
+        }
+        .left-add{
+            border: 1px solid burlywood;
+            right: 240px;
+            top: 4900px;
+            font-size: 15px;
+        }
+        .right-add{
+            border: 1px solid burlywood;
+            left: 220px;
+            top: 4900px;
+            font-size: 15px;
+            padding: auto;
+        }
+        .aomenu{
+            left: auto;
+            padding: 50px 50px;
+            top: 4900px;
+            left: 90px;
+        }
+        .aomenu2{
+            
+            padding: 50px 50px;
+            top:7000px;
+            left: 150px;
+        }
+        .catering1{
+            padding: 30px 30px;
+            top: auto;
+            left: 110px;
+        }
+        .catering2{
+            padding:30px 30px;
+            top: auto;
+            left: 20px;
+        }
+         .pinoy-kusin2{
+            font-size: 15px;
+            left:30px;
+            margin: auto;
+         }
+        .pcimage{
+            left: auto;
+            margin: auto;
+            top: auto;
+            padding: 150px 200px;
+            border-radius: 50px;
+        }
+        .pcimage2{
+            top: auto;
+            left: auto;
+            margin: auto;
+            padding: 150px 200px;
+            border-radius: 50px;
+
+        }
+        .customer-info{
+            top: auto;
+        }
+        #termscon{
+            padding: 0px 0px 50px 0px;
+            margin: auto;
+            font-size: 10px;
+            left: -420px;
+            top: 690px;
+            background-color: rgb(22, 22, 22);
+        }
+        .catering1{
+            padding:120px 180px ;
+        }
+        .paymentD{
+            font-size: 10px;
+            left: -830px;
+            top: 1300px;
+            background-color: rgb(22, 22, 22);
+            padding: 40px 20px 20px 20px;
+        }
+        .catering2{
+            padding: 120px 180px;
+            top: auto;
+        }
+        .menu-background{
+            display: contain;
+            width: 100%;
+        }
+        .adds{
+            left: auto;
+            top: auto;
+            margin: auto;
+        }
+        .add2{
+            left: auto;
+            top: auto;
+            margin: auto;
+        }
+        #terms-checkbox{
+            left:-15px;
+            top: 1450px;
+            font-size: 15px;
+            text-align: center;
+            color: black;
+            box-shadow: 1px 1px 10px 1px bisque;
+        }
+        .submit{
+            left: 85px;
+            top: 1420px;
+            padding:10px 20px;  
+        }
+
+
+}   
